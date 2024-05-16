@@ -82,6 +82,10 @@ sudo systemctl restart nginx
 
 ![Website Preview](DemoWebsite/websitepre.png)
 
+## Conclusion
+
+When distributing an iOS app using this method, clients or testers will need to provide their Unique Device Identifier (UDID) to the developer. The developer will then create a provisioning profile that includes these UDIDs and generate a manifest.plist file containing information about the app. This manifest.plist file is hosted on the server and contains details such as the app's bundle identifier, version, and download URL for the IPA file. Clients or testers can then install the app by opening a special installation link (itms-services://) on their iOS device.
+
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
 
