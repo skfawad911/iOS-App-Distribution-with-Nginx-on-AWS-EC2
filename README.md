@@ -80,7 +80,7 @@ sudo systemctl restart nginx
 
 ## Step 6: Create a basic Static Website(optional for better presentation)
 
-![Website Preview](Images/websiteprev.png)
+![Website Preview](DemoWebsite/websitepre.png)
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
